@@ -1,0 +1,40 @@
+#body{
+    width:100 vw;
+    height: 100 vh;
+}
+
+
+#container{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 50vh;
+
+    /* display flex is the keyword to setup autolayout */
+    display: flex;
+    /* what direction the children will face */
+    flex-direction:row;
+
+    /* we center on both axis */
+    justify-content: center;
+    align-items: center;
+    /* we add some gap between the boxes */
+    gap: 20px;
+}
+
+.box{
+    background-color: #888888;
+    width: 200px;
+    height: 200px;
+}
+
+/* a class to style all the cards */
+.card{
+    /* set a background color */
+    background-color: #C9E39A;
+    /* internal padding all around */
+    padding: 16px;
+    /* add round corner */
+    border-radius: 8px;
+
+    width: 20%;
+}
